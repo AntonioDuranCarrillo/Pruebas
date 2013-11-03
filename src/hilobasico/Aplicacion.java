@@ -16,7 +16,7 @@ public class Aplicacion extends javax.swing.JFrame {
     
     // Declaracion de variables
     private int contador=0;
-    private int contador2=1000;
+    private int contador2=200;
         
     public Aplicacion() {
         initComponents();
