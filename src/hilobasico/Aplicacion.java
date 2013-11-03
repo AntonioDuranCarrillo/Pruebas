@@ -35,7 +35,7 @@ public class Aplicacion extends javax.swing.JFrame {
                 contador++;                
                 lblSegundos.setText(String.valueOf(contador));
                 try {
-                    Thread.sleep(500);
+                    Thread.sleep(100);
                 } catch (InterruptedException ex) {
                     Logger.getLogger(Aplicacion.class.getName()).log(Level.SEVERE, null, ex);
                 }
@@ -50,7 +50,7 @@ public class Aplicacion extends javax.swing.JFrame {
                 contador2--;
                 lblSegundos2.setText(String.valueOf(contador2));
                 try {
-                    Thread.sleep(250);
+                    Thread.sleep(1000);
                 } catch (InterruptedException ex) {
                     Logger.getLogger(Aplicacion.class.getName()).log(Level.SEVERE, null, ex);
                 }
