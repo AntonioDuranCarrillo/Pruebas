@@ -122,7 +122,7 @@ public class Aplicacion extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnMostrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMostrarActionPerformed
-        JOptionPane.showMessageDialog(null, "Su nombre es: "+txtNombre.getText()
+        JOptionPane.showMessageDialog(null, "El nombre que ingreso en el jtextField es: "+txtNombre.getText()
                                         +"\nLa diferencia es: "+(contador2-contador));
     }//GEN-LAST:event_btnMostrarActionPerformed
 
