@@ -88,7 +88,7 @@ public class Aplicacion extends javax.swing.JFrame {
         lblSegundos2.setForeground(new java.awt.Color(255, 0, 0));
         lblSegundos2.setText("0");
 
-        jLabel2.setText("EJEMPLO");
+        jLabel2.setText("ESTE TITULO LO ESTOY CAMBIANDO AHORA");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
